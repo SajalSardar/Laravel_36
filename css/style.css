@@ -16,6 +16,11 @@ h3 {
   border-bottom: 2px solid #000;
   display: inline-block;
 }
+hr{
+  border-top: 1px solid red;
+  width: 100%;
+  margin: 10px 0;
+}
 
 ul,
 ol,
@@ -93,4 +98,14 @@ p {
 
 .nav-pills .nav-link{
   width: 100%;
+}
+
+.footer-logo{
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+
+}
+.footer-logo img{
+  width: 80px;
 }
